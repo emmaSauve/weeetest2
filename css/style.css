@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "coopbl";
+    src: url("../font/COOPBL.TTF");
+    font-weight: auto;
+}
+
+
+html{
+    background-image: linear-gradient(to right, #b0685d, #9e5a4c, #8c4c3c, #7b3f2c, #69321d, #69321d, #69321d, #69321d, #7b3f2c, #8c4c3c, #9e5a4c, #b0685d);
+}
+header, main{
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "coopbl", serif;
+}
+
+h1{
+    font-size: 4em;
+    color: white;
+}
+
+header{
+    background-color: rgb(222, 25, 25);
+    border-bottom: solid 10px white;
+    border-top: solid 10px white;
+}
+
+
+p{
+    font-family: "Signika Negative", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.extra > div > p{
+    font-family: "Delius Swash Caps", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+label, input{
+    font-family: "Signika Negative", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+.info p {
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(123, 63, 44, 0.7);
+    text-shadow: 4px 3px 4px rgba(0,0,0,.8);
+    color: white;
+}
+
+.info{
+    background-image: url("../img/Tootsie-candy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.info h2{
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+img{
+    height: 10%;
+    width: 10%;
+}
+
+.extra{
+    background-image: url("../img/tootsie-fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(123, 63, 44);
+}
+
+.extra div{
+    background-color: white;
+    max-width: 50%;
+    margin: 0 auto;
+    /* rainbow gradient https://codepen.io/unnegative/pen/dVwYBq */
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+
+}
+
+.funFacts {
+    border: solid white 3px;
+    border-radius: 25px;
+    background: rgba(123, 63, 44, 0.6) url("../img/tootsie-wallpaper.jpg");
+    background-blend-mode: multiply;
+    color: white;
+    max-width: 80%;
+    margin: 0 auto;
+    text-shadow: 4px 3px 4px rgba(69, 24, 18, 0.8);
+}
+
+.funFacts h2{
+    text-decoration: underline;
+}
+
+
+.nutrition div {
+    border: 2px solid rgb(222, 25, 25); 
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: rgb(123, 63, 44);
+    max-width: 30%; 
+    margin: 20px auto; 
+    padding: 10px; 
+
+}
+
+.nutrition h2 {
+    text-decoration: underline;
+    font-weight: bold; 
+    color: rgb(222, 25, 25); 
+    margin-bottom: 10px; 
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(222, 25, 25);
+    border-bottom: solid 10px white;
+    border-top: solid 10px white;
+    padding: 10px;
+    color: white;
+  }
+  
+  .company {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .subscribe {
+    flex: 1;
+  }
+  
+  .logo {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
+.company p{
+    font-size: 1em;
+    line-height: 0;
+}
+
+.company p:hover{
+    text-decoration: underline;
+    color: rgb(123, 63, 44);
+    
+}
+
+.subscribe h3{
+    text-decoration: underline;
+}
+
+.subscribe form { 
+    display: table;    
+    line-height: 2;
+  }
+
+.subscribe div { 
+    display: table-row;
+  }
+
+.subscribe label {
+     display: table-cell; 
+    }
+
+.subscribe input {
+     display: table-cell; 
+    }
+
+p{
+    padding: 10px 10px 10px 10px;
+}
